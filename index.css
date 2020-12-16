@@ -46,13 +46,12 @@ nav > li > a:focus {
     text-decoration: none;
 }*/
 #bodyShit  {
-    width : 640px;
+    width : 700px;
     margin: 0 auto;
-    font-family: "Helvetica", "Arial", sans-serif;
-    font-size: 21px;
+    font-family: serif;
+    font-size: 24px;
     line-height: 1.5;
     color: #555;
-
 
   }
 
@@ -61,7 +60,13 @@ nav > li > a:focus {
     padding-top: 30px;
     padding-bottom: 20px;
     color: #333;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
 }
 strong{
     color : rgb(80, 45, 45);
+}
+.a{
+        color: rgb(168, 53, 53);
+        text-decoration: none;
 }
