@@ -1,0 +1,50 @@
+* {
+  background-color: beige;
+}
+
+body {
+  width: 700px;
+  margin: 0 auto;
+  font-family: serif;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #555;
+}
+
+h1 {
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #333;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+strong {
+  color: rgb(80, 45, 45);
+}
+#Hoho {
+  color: #333;
+  font-size: 120px;
+  background-color: brown;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: brown;
+}
+a:hover {
+  background-color: bisque;
+}
+hr {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #854545 inset;
+  width: 900px;
+  margin-left: -100px;
+}
+header > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  text-align: left;
+}
