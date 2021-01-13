@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Sintony&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+
+* {
+  margin: 0 auto;
+  line-height: 1.5;
+  font-family: "Sintony", sans-serif;
+  background-color: beige;
+}
+body {
+  width: 700px;
+  font-family: serif;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 30px;
+}
+h1 {
+  color: #333;
+  font-family: "Oswald", serif;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+a {
+  text-decoration: none;
+  color: crimson;
+}
+a:hover {
+  color: white;
+  background-color: black;
+}
