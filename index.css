@@ -14,7 +14,6 @@ hr {
 
 body {
   font-family: "Sintony", sans-serif;
-  margin-bottom: 50px;
 }
 .container {
   display: flex;
@@ -87,6 +86,16 @@ h2 {
   margin-bottom: 1em;
   padding-left: 1em;
   border-style: none none none solid;
+}
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media all and (max-width: 500px) {
   .container2 div:nth-child(2) {
