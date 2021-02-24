@@ -66,6 +66,12 @@ body {
 .Blog__date {
   color: black;
 }
+.Blogs a {
+  color: #555;
+}
+.Blogs a:hover {
+  background-color: aliceblue;
+}
 @media all and (max-width: 500px) {
   .Blogs {
     width: 450px;
