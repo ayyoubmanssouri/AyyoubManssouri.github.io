@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  line-height: 1.9;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(5, 5, 5);
+}
+.nav {
+  background-color: rgb(194, 188, 188);
+  height: 80px;
+  color: white;
+}
+.nav__flex {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 25px;
+  font-size: 20px;
+}
+.link__link--grow {
+  flex-grow: 17;
+  padding-left: 30px;
+}
+.nav__link {
+  flex-grow: 1;
+  flex-basis: 100px;
+  font-family: "Anton", sans-serif;
+}
+#nav__link--changeBG {
+  border: 3px solid rgb(165, 68, 68);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.nav__flex a {
+  color: white;
+  text-decoration: none;
+}
+#nav__link--changeBG a:hover,
+#nav__link--changeBG:hover {
+  background-color: rgb(165, 68, 68);
+}
+.Blogs {
+  margin: 0 auto;
+  width: 700px;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  color: #555;
+}
+.Blog__title {
+  font-family: "Oswald";
+  font-size: 40px;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bolder;
+  margin-top: 6%;
+  border-style: none none none solid;
+  padding-left: 15px;
+  border-color: rgb(194, 188, 188);
+}
+.Blog__date {
+  color: black;
+}
+@media all and (max-width: 500px) {
+  .Blogs {
+    width: 450px;
+  }
+}
