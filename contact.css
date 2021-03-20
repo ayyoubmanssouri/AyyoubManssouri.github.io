@@ -15,7 +15,7 @@ body {
 .nav {
   /*background-color: #b4a19d;*/
   background-color: rgb(194, 188, 188);
-  height: 500px;
+  height: 80px;
   color: white;
 }
 .nav__flex {
@@ -47,19 +47,6 @@ body {
 #nav__link--changeBG:hover {
   background-color: rgb(165, 68, 68);
 }
-
-.title {
-  margin-left: 53px;
-  font-size: 625%;
-  margin-top: 7%;
-}
-.title__byline {
-  margin-left: 58px;
-}
-.well {
-  background-color: black;
-  color: turquoise;
-}
 img {
   width: 33px;
 }
@@ -68,7 +55,7 @@ img {
   border-style: none solid;
   width: 500px;
   margin: 0 auto;
-  background-color: rgb(243, 237, 237);
+  /* background-color: rgb(243, 237, 237); */
 }
 table td {
   padding: 50px;
