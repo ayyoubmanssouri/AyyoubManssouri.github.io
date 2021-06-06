@@ -55,7 +55,10 @@ img {
   border-style: none solid;
   width: 500px;
   margin: 0 auto;
-  /* background-color: rgb(243, 237, 237); */
+  height: 517px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 table td {
   padding: 50px;
@@ -65,9 +68,12 @@ footer {
   color: white;
   text-align: center;
   height: 100px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  bottom: 0px;
 }
 @media all and (max-width: 500px) {
   .container2 div:nth-child(2) {
